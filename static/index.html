@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Templated Application</title>
+    </head>
+    <body>
+        <h1>Templated </h1>
+        Id: <b>{{.Id}}<p />
+        Name: <b> {{.Name}}</b>
+        <br>
+        <form method="POST", action="/signup">
+        	<input type="text" name="username"/><br>
+        	<input type="password" name="password"/><br>
+        	<input type="hidden" name="hidden" value="false"/><br>
+        	<input type="submit" name="singup"/>
+        </form>
+    </body>
+</html>
